@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ali Fisher Interior Design</title>
+    <title>Ali Fisher Interior Design - 70s Style</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Ali Fisher</a>
+            <a class="navbar-brand groovy-text" href="#">Ali Fisher</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,20 +36,26 @@
 
     <section id="home" class="hero">
         <div class="container">
-            <h1>Creating Beautiful Spaces</h1>
-            <p>London-based interior design for modern living</p>
+            <div class="retro-circle">
+                <h1 class="groovy-text">Far Out Interior Design</h1>
+                <p>Bringing the 70s vibe to modern London living</p>
+            </div>
         </div>
     </section>
 
     <section id="about" class="section">
         <div class="container">
-            <h2>About Ali Fisher</h2>
+            <h2 class="groovy-text">About Ali Fisher</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <p>With over a decade of experience in interior design, Ali Fisher brings a unique blend of contemporary style and timeless elegance to every project. Based in London, we work with residential and commercial clients to create spaces that inspire and delight.</p>
+                    <div class="retro-box">
+                        <p>Dig this: With over a decade of experience in interior design, Ali Fisher brings the groovy vibes of the 70s to contemporary spaces. Based in London, we work with residential and commercial clients to create spaces that are totally far out!</p>
+                    </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace" alt="Interior Designer" class="img-fluid">
+                    <div class="retro-frame">
+                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace" alt="Interior Designer" class="img-fluid">
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,7 +63,7 @@
 
     <section id="portfolio" class="section">
         <div class="container">
-            <h2>Portfolio</h2>
+            <h2 class="groovy-text">Groovy Portfolio</h2>
             <div class="row" id="portfolio-grid">
                 <!-- Portfolio items will be loaded here -->
             </div>
@@ -65,25 +72,27 @@
 
     <section id="contact" class="section">
         <div class="container">
-            <h2>Contact</h2>
+            <h2 class="groovy-text">Get in Touch</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <form id="contact-form">
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+                    <div class="retro-box">
+                        <form id="contact-form">
+                            <div class="mb-3">
+                                <input type="text" class="form-control retro-input" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control retro-input" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control retro-input" id="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary retro-button">Send Message</button>
+                        </form>
+                    </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="contact-info">
-                        <h3>Get in Touch</h3>
+                    <div class="contact-info retro-box">
+                        <h3 class="groovy-text">Reach Out</h3>
                         <p>Studio 42<br>123 Design Street<br>London, UK</p>
                         <p>Email: hello@alifisher.com<br>Phone: +44 20 1234 5678</p>
                     </div>
@@ -94,7 +103,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Ali Fisher Interior Design. All rights reserved.</p>
+            <p>&copy; 2024 Ali Fisher Interior Design. Peace out!</p>
         </div>
     </footer>
 
